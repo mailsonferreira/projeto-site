@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: blueviolet;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.418) 5px 5px 10px;
+    margin: 100px auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 2fr ;
+}
+
+header .logo img{
+    width: 100px;
+    padding: 20px 0 0 20px;
+}
+
+
+
+header .links {
+    padding: 25px 20px 0 70px;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 10px;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: rgb(119, 119, 119);
+}
+
+header .botao {
+    
+    color: white;
+    background-color: rgba(231, 71, 43, 0.856);
+    border-radius: 15px;
+}
+
+header .botao:hover {
+    background-color:#8A2BE2;
+}
+
+header a:hover {
+    color: black;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact {
+    margin: 85px 0 0 20px ;
+}
+
+.contact h1{
+    color: #8A2BE2;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+.contact p {
+    color: rgb(119, 119, 119);
+    font-size: 10px;
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+
+.principal a  {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    line-height: 20px;
+    width: 200px;
+}
+
+.read{
+    background-color: rgba(231, 71, 43, 0.856);
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    border-radius: 15px;
+   cursor: pointer; 
+}
+
+.read:hover {
+    background-color:#8A2BE2;
+}
+
+.img {
+    margin: 15px 15px 0 0 ;
+}
